@@ -1,0 +1,29 @@
+.Testymonials{
+    width: 100%;
+    background-image:url('../../utils/imgs/testy-background.png'),linear-gradient( #C98A40 0%,#C98A40 100%);
+    padding:60px 0;
+    text-align: center;
+    color: white;
+}
+.testymonials-heading{
+    font-family: Sen;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 138.24px;
+    margin-bottom: 30px;
+}
+.reviews-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .testymonials-heading{
+        font-size: 50px;
+        line-height: 65px;
+    }
+}

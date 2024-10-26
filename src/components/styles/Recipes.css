@@ -1,0 +1,39 @@
+.Recipes{
+    width:100%;
+    padding:60px 0;
+    text-align: center;
+}
+.recipes-heading{
+    font-family: Sen;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 138.24px;
+    color: #C98A40;
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+}
+.recipes-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    margin-bottom: 30px;
+}
+.recipe-loading , .fetch-error{
+    font-family: Sen;
+    font-size: 60px;
+    font-weight: 500;
+    color: #C98A40;
+    text-align: center; 
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .recipes-heading{
+        font-size: 60px;
+        line-height: 65px;
+    }
+}

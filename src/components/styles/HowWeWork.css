@@ -1,0 +1,82 @@
+.howSec{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:40px;
+    color: white;
+    background-image:linear-gradient(to left ,#C98A40 0% , #C98A40 60%,transparent 60%, transparent 100%) , url('../../utils/imgs/hero-background.png');
+}
+
+.howSec-text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap:30%;
+    padding-left:10vw;
+    padding-bottom: 40px;
+}
+.howSec-heading{
+    font-family: Sen;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 138.24px;
+}
+.howSec-text>p{
+    color: #C98A40;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 50%;
+}
+.howSec-imgList{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap:20px;
+ padding-bottom: 20px;
+}
+
+.howSec-imgList>img{
+    width: 20vw;
+    height: 20vw;
+   
+}
+.contact-btn{
+    background: #FDBA10;
+    width: 194px;
+    height: 60px;
+    border:none;
+    border-radius: 30px;
+    color:white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    
+}
+.contact-btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .howSec-heading{
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .howSec-text>p{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .contact-btn{    
+        width: 80px;
+        height: 30px;   
+        border-radius: 15px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom:10px;
+     }
+
+}
